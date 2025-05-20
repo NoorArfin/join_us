@@ -48,6 +48,7 @@ This template can be adapted for:
    ```bash
    npm start
    ```
+app link: https://join-us-j23w.onrender.com/
 
 ## Screenshot Preview
 The interface shows a clean email collection form with social proof messaging:
