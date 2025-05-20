@@ -36,6 +36,8 @@ app.post('/register', function(req,res){
   });
 });
  
-app.listen(8080, function () {
- console.log('App listening on port 8080!');
+const port = process.env.PORT || 8080; // Uses environment variable or defaults to 8080
+
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
